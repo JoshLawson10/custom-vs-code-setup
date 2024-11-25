@@ -86,10 +86,10 @@
   "cmake.configureOnOpen": true,
   "auto-build.defaultEnv.name": "STM32F103RE_creality",
 
-  //Custom Styling
+  // Custom Styling
   "vscode_custom_css.imports": [
-    "file:///C:/Users/Shrie/AppData/Roaming/Code/User/customStyles/customStyle.css",
-    "file:///C:/Users/Shrie/AppData/Roaming/Code/User/customStyles/customJS.js"
+    "file:///path/to/your/custom/CSS",
+    "file:///path/to/your/custom/JS",
   ],
   "workbench.colorTheme": "Catppuccin Dark Theme",
   "glassit.alpha": 255,
