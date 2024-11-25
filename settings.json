@@ -1,0 +1,99 @@
+{
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.list.smoothScrolling": true,
+
+  "workbench.activityBar.location": "top",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 1,
+
+  // Terminal configuration
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.gpuAcceleration": "on",
+
+  // Editor configuration
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.hover.enabled": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.overviewRulerBorder": false,
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.codeLens": false,
+  "editor.wordWrap": "off",
+  "editor.emptySelectionClipboard": false,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
+  "debug.showVariableTypes": true,
+
+  "breadcrumbs.enabled": false,
+
+  // File/Language configuration
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  "files.autoSave": "onWindowChange",
+  "files.exclude": {
+    "**.meta": true,
+    "**/*.meta": true
+  },
+
+  // Git configuration
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // Plugins configuration
+  "console-ninja.featureSet": "Community",
+  "tabnine.experimentalAutoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "cmake.configureOnOpen": true,
+  "auto-build.defaultEnv.name": "STM32F103RE_creality",
+
+  //Custom Styling
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/Shrie/AppData/Roaming/Code/User/customStyles/customStyle.css",
+    "file:///C:/Users/Shrie/AppData/Roaming/Code/User/customStyles/customJS.js"
+  ],
+  "workbench.colorTheme": "Catppuccin Dark Theme",
+  "glassit.alpha": 255,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "emulator.emulatorPathWindows": "C:\\Users\\Shrie\\AppData\\Local\\Android\\Sdk\\emulator",
+  "editor.cursorBlinking": "smooth"
+}
