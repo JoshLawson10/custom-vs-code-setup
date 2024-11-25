@@ -2,23 +2,16 @@
 
 This repository contains my customized setup for Visual Studio Code, including settings, custom CSS, and custom JavaScript. This setup allows you to achieve a personalized look and feel for your code editor, complete with styling tweaks and enhancements.
 
----
-
 ## Features
 - **Custom CSS and JavaScript**: Modify the appearance and behavior of VS Code using your own CSS and JS files.
 - **Catppuccin Dark Theme**: A beautiful dark theme for a cohesive aesthetic.
 - **Easy Integration**: Simple steps to set up and start using.
 
----
-
 ## Prerequisites
 Before using this setup, make sure you have the following:
 1. **Visual Studio Code** installed on your machine.
 2. The [**Custom CSS & JS Loader**](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension
-   - .
 3. The [**Catppuccin Dark Theme**](https://marketplace.visualstudio.com/items?itemName=Birdlinux.catppuccin-dark-theme) installed:
-
----
 
 ## Installation Steps
 1. **Clone this Repository**
@@ -51,8 +44,6 @@ Before using this setup, make sure you have the following:
   
 6. **Reload VS Code**
     Restart VS Code one final time to apply the customizations.
-
----
 
 ## Important Notes
   - **File URLs:** Ensure the paths `settings.json` use `file:///` format and point to the correct file locations
